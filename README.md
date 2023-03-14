@@ -17,7 +17,7 @@ In this simulated work project, I was given user data for a mock company named C
 
 <h2>Program walk-through:</h2>
 
-The data I needed was located in the form of 4 .CSV files. Some of which were too big to work with in Excel. I decided to import them into a MySQL database.
+The data I needed was located in the form of 4 .CSV files. I realized the data files were too big to clean and transform in Excel. I decided the best option was to insert the tables into a MySQL database to clean the data.
 <br />
 <br />
 <a href="https://imgur.com/hIjHesv"><img src="https://i.imgur.com/hIjHesv.png" title="source: imgur.com" /></a>
@@ -28,7 +28,7 @@ The data I needed was located in the form of 4 .CSV files. Some of which were to
 <br />
 <br />
 <br />
-Using the import wizard on MySQL workbench was taking too long to import, so I decided to use the command line client to import the data.
+I first attempted to use the Import Wizard in MySQL workbench. However, the program would take hours to import the .CSV files. I decided to use the LOAD DATA INFILE function in a command window instead.
 <br />
 <br />
 <a href="https://imgur.com/YJjTjUm"><img src="https://i.imgur.com/YJjTjUm.png" title="source: imgur.com" /></a>
@@ -36,7 +36,7 @@ Using the import wizard on MySQL workbench was taking too long to import, so I d
 <br />
 <br />
 <br />
-I went ablout cleaning data. Deleting rows with null or inconsistant values.  <br/>
+After I had all of the year's data into a single table, I began to clean the data. I removed trips with missing data cells and trips with unreliable data such as a person riding having an age over 84.  <br/>
 <br />
 <br />
 <a href="https://imgur.com/GzIzJRq"><img src="https://i.imgur.com/GzIzJRq.png" title="source: imgur.com" /></a>
@@ -47,7 +47,7 @@ I went ablout cleaning data. Deleting rows with null or inconsistant values.  <b
 <br />
 <br />
 <br />
-I launched Power BI and connected it to the MySQL database. <br/>
+After thoroughly cleaning the data, I launched Power BI and connected it to the MySQL database. <br/>
 <br />
 <br />
 <a href="https://imgur.com/6IbS6UQ"><img src="https://i.imgur.com/6IbS6UQ.png" title="source: imgur.com" /></a>
@@ -55,7 +55,7 @@ I launched Power BI and connected it to the MySQL database. <br/>
 <br />
 <br />
 <br />
-I transformed the data and added calculations Using Power BI.  <br/>
+I then needed to calculate extra values to create the visuals. I used formulas in the data view to create calculations and new columns to create insightful visualizations.  <br/>
 <br />
 <br />
 <a href="https://imgur.com/LLYmDr0"><img src="https://i.imgur.com/LLYmDr0.png" title="source: imgur.com" /></a>
@@ -66,7 +66,7 @@ I transformed the data and added calculations Using Power BI.  <br/>
 <br />
 <br />
 <br />
-Created Charts to help visualize data.  <br/>
+I then proceeded to create the visualizations. I kept in mind the goal of the project which was to compare Subscribers to Casual Customers when creating the charts. I compared the trip data between the two across multiple metrics such as trip duration, day of week, gender, and time of day.  <br/>
 <br />
 <br />
 <a href="https://imgur.com/n8jxnz2"><img src="https://i.imgur.com/n8jxnz2.png" title="source: imgur.com" /></a>
@@ -80,12 +80,27 @@ Created Charts to help visualize data.  <br/>
 <br />
 <br />
 <br />
-Inserted visualizations into Microsoft Powerpoint to share findings with stakeholders and provide recomendations.
+After I selected the most realevant charts, I created a powerpoint presentation to present to investors. This included my conclusion to my analysis and my recomendations for converting Casual Riders to Subscribers.
 <br />
 <br />
-<a href="https://imgur.com/HvjDrok"><img src="https://i.imgur.com/HvjDrok.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/l1hmOY9"><img src="https://i.imgur.com/l1hmOY9.png" title="source: imgur.com" /></a>
 <br />
 <br />
+<h1>Conclusion</h1>
+My analysis lead me to the conclusion that Casual Riders typically use the service for longer leisure trips and Subscribers use it for regular commutes. My conclusion is backed by the data and can be clearly understood by visualizations. 
+<br />
+<br />
+I made 3 recomendations to convert Casual riders to Subscribers.
+<br />
+<br />
+1. Visitors of Chicago are not incentivized to subscribe, unless they have access to the same service in their home city or if they travel to other cities enough with the service provided. Expanding service to other cities will increase subscribers for travelers and workers who frequently travel.
+<br />
+<br />
+2. Adding another type of subscription service may be beneficial. Whether it be for weekend use or seasonal. However, this may discourage people to sign up annually and choose the smaller commitment.
+<br />
+<br />
+3. Increasing the cost of weekend rides could make Casual Riders more inclined to switch to subscription service if they frequently use the bikes on weekends.
+
 </p>
 
 <!--
