@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-In this simulated work project, I was given user data for a mock company named Cyclistic which provided bike rentals in Chicago. My task was to analyze the data and find how subscribers use the service differ from users who pay for each ride individually. Finally, I was aked to give data-based recomendations on how to convert more of the "Casual" riders to Subscribers of the service. 
+In this simulated work project, I was given user data for a mock company named Cyclistic which provided bike rentals in Chicago. I was given data from trips taken which included information about the bike trip and the rider making the trip. Personal information was limited, so individual users and their ride habits could not be identified. My task was to analyze the data and find how subscribers use the service differently from users who pay for each ride individually. Finally, I was asked to give data-based recommendations on how to convert more of the "Casual" riders to Subscribers of the service. 
 <br />
 
 
@@ -36,7 +36,7 @@ I first attempted to use the Import Wizard in MySQL workbench. However, the prog
 <br />
 <br />
 <br />
-After I had all of the year's data into a single table, I began to clean the data. I removed trips with missing data cells and trips with unreliable data such as a person riding having an age over 84.  <br/>
+After I had all of the year's data into a single table, I began to clean the data. I removed trips with missing data cells and trips with unreliable data such as a person riding whose age is over 84. <br />
 <br />
 <br />
 <a href="https://imgur.com/GzIzJRq"><img src="https://i.imgur.com/GzIzJRq.png" title="source: imgur.com" /></a>
@@ -66,7 +66,7 @@ I then needed to calculate extra values to create the visuals. I used formulas i
 <br />
 <br />
 <br />
-I then proceeded to create the visualizations. I kept in mind the goal of the project which was to compare Subscribers to Casual Customers when creating the charts. I compared the trip data between the two across multiple metrics such as trip duration, day of week, gender, and time of day.  <br/>
+I then proceeded to create the visualizations. I kept in mind the goal of the project which was to compare Subscribers to Casual Customers when creating the charts. I compared the trip data between the two across multiple metrics such as trip duration, day of the week, gender, and time of day<br />
 <br />
 <br />
 <a href="https://imgur.com/n8jxnz2"><img src="https://i.imgur.com/n8jxnz2.png" title="source: imgur.com" /></a>
@@ -80,17 +80,17 @@ I then proceeded to create the visualizations. I kept in mind the goal of the pr
 <br />
 <br />
 <br />
-After I selected the most realevant charts, I created a powerpoint presentation to present to investors. This included my conclusion to my analysis and my recomendations for converting Casual Riders to Subscribers.
+After I selected the most relevant charts, I created a PowerPoint presentation to present to investors. This included my conclusion to my analysis and my recommendations for converting Casual Riders to Subscribers.
 <br />
 <br />
 <a href="https://imgur.com/l1hmOY9"><img src="https://i.imgur.com/l1hmOY9.png" title="source: imgur.com" /></a>
 <br />
 <br />
 <h1>Conclusion</h1>
-My analysis lead me to the conclusion that Casual Riders typically use the service for longer leisure trips and Subscribers use it for regular commutes. My conclusion is backed by the data and can be clearly understood by visualizations. 
+My prior analysis lead me to the conclusion that Casual Riders typically use the service for longer leisure trips and Subscribers use it for regular commutes. My conclusion is backed by the data and can be clearly understood by visualizations. 
 <br />
 <br />
-I made 3 recomendations to convert Casual riders to Subscribers.
+I made 3 recommendations to convert Casual riders to Subscribers.
 <br />
 <br />
 1. Visitors of Chicago are not incentivized to subscribe, unless they have access to the same service in their home city or if they travel to other cities enough with the service provided. Expanding service to other cities will increase subscribers for travelers and workers who frequently travel.
