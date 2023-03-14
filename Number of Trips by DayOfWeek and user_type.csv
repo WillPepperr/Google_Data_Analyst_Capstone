@@ -1,0 +1,15 @@
+﻿DayOfWeek,Number of Trips,user_type,,Weekend subscriber/total trips,weekend customer/total trips
+Tuesday,493104,Subscriber,,18.48%,41.29%
+Wednesday,490486,Subscriber,,,
+Thursday,483110,Subscriber,,%change on subscriber weekend,%change on customer weekend
+Monday,455122,Subscriber,,-43.32%,75.84%
+Friday,453278,Subscriber,,43% decrease ,76% increase
+Saturday,284556,Subscriber,,,
+Sunday,253913,Subscriber,,,
+Saturday,78582,Customer,,,
+Sunday,63523,Customer,,,
+Friday,47111,Customer,,,
+Thursday,41113,Customer,,,
+Monday,40655,Customer,,,
+Wednesday,36768,Customer,,,
+Tuesday,36396,Customer,,,
