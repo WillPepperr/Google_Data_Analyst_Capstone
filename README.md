@@ -18,45 +18,47 @@ In this simulated work project, I was given user data for a mock company named C
 <h2>Program walk-through:</h2>
 
 The data I needed was located in the form of 4 .CSV files. Some of which were too big to work with in Excel. I decided to import them into a MySQL database.
- <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br/>
+<a href="https://imgur.com/hIjHesv"><img src="https://i.imgur.com/hIjHesv.png" title="source: imgur.com" /></a>
 <br />
+<br />
+<a href="https://imgur.com/AJV8a2O"><img src="https://i.imgur.com/AJV8a2O.png" title="source: imgur.com" /></a>
 <br />
 Using the import wizard on MySQL workbench was taking too long to import, so I decided to use the command line client to import the data. <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-I then created the table with the inteded value types for the columns and imported the 4 .CSV files into a single table. <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/YJjTjUm"><img src="https://i.imgur.com/YJjTjUm.png" title="source: imgur.com" /></a>
 <br />
 <br />
 I went ablout cleaning data. Deleting rows with null or inconsistant values.  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/GzIzJRq"><img src="https://i.imgur.com/GzIzJRq.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/gAtJAsv"><img src="https://i.imgur.com/gAtJAsv.png" title="source: imgur.com" /></a>
 <br />
 <br />
-I launched Power BI and connected it to the MySQL database <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I launched Power BI and connected it to the MySQL database. <br/>
+<a href="https://imgur.com/6IbS6UQ"><img src="https://i.imgur.com/6IbS6UQ.png" title="source: imgur.com" /></a>
 <br />
 <br />
-I transformed the data and added calculations <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I transformed the data and added calculations Using Power BI.  <br/>
+<a href="https://imgur.com/LLYmDr0"><img src="https://i.imgur.com/LLYmDr0.png" title="source: imgur.com" /></a>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/Ho4vdOw"><img src="https://i.imgur.com/Ho4vdOw.png" title="source: imgur.com" /></a>
 <br />
 <br />
-
+Created Charts to help visualize data.  <br/>
+<a href="https://imgur.com/n8jxnz2"><img src="https://i.imgur.com/n8jxnz2.png" title="source: imgur.com" /></a>
 <br />
- <br />
 <br />
- <br />
+<a href="https://imgur.com/bMLel9Q"><img src="https://i.imgur.com/bMLel9Q.png" title="source: imgur.com" /></a>
 <br />
- <br />
 <br />
- <br />
+<a href="https://imgur.com/gm2jrq7"><img src="https://i.imgur.com/gm2jrq7.png" title="source: imgur.com" /></a>
 <br />
- </p>
+<br />
+Inserted visualizations into Microsoft Powerpoint to share findings with stakeholders and provide recomendations.
+<a href="https://imgur.com/HvjDrok"><img src="https://i.imgur.com/HvjDrok.png" title="source: imgur.com" /></a>
+<br />
+<br />
+</p>
 
 <!--
  ```diff
